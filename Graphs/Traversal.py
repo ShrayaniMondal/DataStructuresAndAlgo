@@ -62,10 +62,10 @@ class Traversal:
 		:return: order, a list containing the order iun which the graph is traversed
 		Time complexity is same as DFS
 		"""
-		queue = []
 		seen = set()
-		queue.append([start])
+		queue = []
 		order = []
+		queue.append([start])
 
 		while queue:
 			curr_path = queue.pop(0)
