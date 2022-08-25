@@ -38,7 +38,7 @@ class SingleSourceShortestPath:
 		Explanation of Time Complexity
 		every edge gets added atmost once to the edges minheap
 		and operations in minheap take O(log(E)) time
-		shortes_path dictionary contruction takes O(V) time
+		shortest_path dictionary contruction takes O(V) time
 
 		Therefore, overall O(V + Elog(E)) time complexity
 		"""
